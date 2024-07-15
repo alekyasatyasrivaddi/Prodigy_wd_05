@@ -5,7 +5,7 @@ document.getElementById('location-form').addEventListener('submit', function(eve
 });
 
 function getWeather(location) {
-    const apiKey = 'f93fc6ceb5491bf52cfc2fdfb7463032'; 
+    const apiKey = 'yourapikey'; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`;
 
     fetch(url)
